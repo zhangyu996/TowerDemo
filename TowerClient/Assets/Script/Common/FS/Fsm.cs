@@ -11,7 +11,7 @@ public class Fsm
         set;
     }
 
-    public Dictionary<string, IState> _states;
+    private Dictionary<string, IState> _states;
     public IState CurrentState;
     public string _enterPoint;
 
